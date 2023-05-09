@@ -1,4 +1,4 @@
-# Laravel 9 透過 OpenAI 應用程式介面的速度驚人應用程式介面用戶端
+# Laravel 10 透過 OpenAI 應用程式介面的速度驚人應用程式介面用戶端
 
 引入 openai-php 的 client 套件來擴增透過 OpenAI 應用程式介面（API）的速度驚人應用程式介面用戶端，透過開放應用程式介面用戶端來存取模型，使得更多開發人員能夠以創新的方法，將人工智慧應用在大量應用程式和開放問題上。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/uRhYj4y.png)
+![](https://i.imgur.com/rVopnu2.png)
 > 只要透過一段描述文字便能叫人工智慧幫你產生圖片
