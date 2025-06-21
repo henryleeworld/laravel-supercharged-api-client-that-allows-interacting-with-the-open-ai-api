@@ -1,24 +1,21 @@
 <?php
 
-namespace App\Services;
+namespace App\Http\Integrations\OpenAI;
 
 use OpenAI;
 
-class OpenAIService
+class OpenAIConnector
 {
     /**
      * OpenAIService constructor.
      */
     public function __construct()
     {
-        $this->client = OpenAI::client(env('OPEN_API_SECRET_KEY'));
+        $this->client = OpenAI::client(config('open-ai.secret_key'));
     }
 
     /**
-     * Get post by id.
-     *
-     * @param $id
-     * @return String
+     * Creates an image given a prompt.
      */
     public function createImage(array $attributeAry)
     {
